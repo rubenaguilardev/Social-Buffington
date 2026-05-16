@@ -68,7 +68,7 @@ export const MY_WORK_TOP = [
 
 export const MY_WORK = [
   {
-    label: "Instagram",
+    label: "Social Media",
     id: 0,
     icon: <i className="fab fa-instagram" />,
     color: `bg-gradient-to-br from-yellow-400 via-pink-500 to-purple-700`,
