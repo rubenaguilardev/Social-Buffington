@@ -59,7 +59,7 @@ const Skills = () => {
                 <h2 className="text-3xl font-semibold text-shadow-lg text-gray-100 mb-2">
                   {SKILLS[currentIndex].title}
                 </h2>
-                <p className="text-shadow-lg text-gray-100 px-10 md:px-0">
+                <p className="text-shadow-lg font-medium text-gray-100 px-10 md:px-0">
                   {SKILLS[currentIndex].description}
                 </p>
               </div>
