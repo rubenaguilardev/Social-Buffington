@@ -26,7 +26,7 @@ const Testimonials = () => {
   });
 
   return (
-    <section className="flex justify-center items-center py-32">
+    <section className="flex justify-center items-center pt-32 pb-64 overflow-hidden">
       <div
         className="container mx-auto md:px-6 lg:px-8 relative z-10 h-[540px] group rounded-2xl"
         {...swipeHandlers}
