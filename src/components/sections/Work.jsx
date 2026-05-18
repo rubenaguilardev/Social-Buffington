@@ -12,8 +12,8 @@ const Work = () => {
               Work
             </span>
           </h2>
-          <div className="grid lg:grid-cols-2 gap-4 md:gap-8 border-b border-white/10 pb-4 md:pb-8">
-            <div className="grid 2xl:grid-cols-2 p-6 gap-6 glass rounded-3xl items-center text-[#94A3B8]">
+          <div className="grid lg:grid-cols-2 xl:grid-cols-1 2xl:grid-cols-2 gap-4 md:gap-8 border-b border-white/10 pb-4 md:pb-8">
+            <div className="grid xl:grid-cols-2 p-6 gap-6 glass rounded-3xl items-center text-[#94A3B8]">
               <div className="">
                 <img
                   src={MY_WORK_TOP[0].image}
@@ -26,8 +26,8 @@ const Work = () => {
                 <p className="">{MY_WORK_TOP[0].description[1]}</p>
               </div>
             </div>
-            <div className="flex flex-col 2xl:grid 2xl:grid-cols-2 p-6 gap-6 2xl:items-center glass rounded-3xl text-[#94A3B8]">
-              <div>
+            <div className="flex flex-col xl:grid xl:grid-cols-2 p-6 gap-6 xl:items-center glass rounded-3xl text-[#94A3B8]">
+              <div className="xl:order-2 2xl:order-0">
                 <img
                   src={MY_WORK_TOP[1].image}
                   alt="image of Margaritaville lobby"
