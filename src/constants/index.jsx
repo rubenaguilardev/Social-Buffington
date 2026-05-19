@@ -21,6 +21,7 @@ import blog4 from "../assets/blogs/4.avif";
 import testimonial2 from "../assets/testimonials/2.avif";
 import testimonial1 from "../assets/testimonials/1.avif";
 import testimonial3 from "../assets/testimonials/3.avif";
+import testimonial4 from "../assets/testimonials/4.avif";
 
 export const SKILLS = [
   {
@@ -120,6 +121,14 @@ export const MY_WORK = [
 ];
 
 export const TESTIMONIAL_CONTENT = [
+  {
+    background: testimonial4,
+    author: "Karen Tonkinson",
+    company: "Hyatt Place Tempe/Phoenix/University",
+    testimonial: `
+            "I’ve had the privilege of working alongside Jazmin and have consistently been impressed by her creativity, professionalism, and ability to elevate the Food & Beverage experience across multiple properties. Her innovative activations, strong visual storytelling, and attention to detail drive guest engagement and brand visibility while staying aligned with operational goals. Beyond her creativity, Jazmin is an exceptional collaborator who works seamlessly across teams, manages multiple projects with ease, and brings a positive, solution-oriented mindset to everything she does. Her passion for hospitality and commitment to excellence make her an incredible asset to any organization."
+        `,
+  },
   {
     background: testimonial2,
     author: "Taylor Eckard",

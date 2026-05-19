@@ -44,7 +44,7 @@ const Testimonials = () => {
               key={index}
               src={testimonial.background}
               alt={testimonial.author}
-              className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ease-in-out md:rounded-2xl ${index === currentIndex ? "opacity-100 z-10" : "opacity-0 z-0"}`}
+              className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ease-in-out md:rounded-2xl ${index === currentIndex ? "opacity-90 z-10" : "opacity-0 z-0"}`}
             />
           ))}
           <div className="absolute inset-0 bg-black/60 md:rounded-xl z-20">
@@ -60,7 +60,7 @@ const Testimonials = () => {
                   <p className="text-shadow-lg px-5 md:px-12 lg:px-14 xl:px-22 mb-4">
                     {TESTIMONIAL_CONTENT[currentIndex].testimonial}
                   </p>
-                  <h2 className="text-2xl font-semibold mb-2 text-blue-600">{`-${TESTIMONIAL_CONTENT[currentIndex].author}`}</h2>
+                  <h2 className="text-2xl font-semibold mb-2 text-purple-700 text-shadow-2xl">{`-${TESTIMONIAL_CONTENT[currentIndex].author}`}</h2>
                   <h3 className="txt-xl font-semibold text-[#94A3B8]">
                     {TESTIMONIAL_CONTENT[currentIndex].company}
                   </h3>

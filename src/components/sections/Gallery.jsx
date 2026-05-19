@@ -139,7 +139,7 @@ const Gallery = (props) => {
       >
         <h2 className="text-3xl md:text-4xl text-center font-bold mb-6 md:mb-8">
           My{" "}
-          <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-blue-600 to-purple-700 bg-clip-text text-transparent">
             Photography{" "}
           </span>
         </h2>

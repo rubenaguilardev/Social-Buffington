@@ -8,7 +8,7 @@ const Work = () => {
         <div className="container mx-auto px-4 md:px-6 lg:px-8 relative z-10">
           <h2 className="text-3xl md:text-4xl text-center font-bold mb-5 md:mb-8">
             My{" "}
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-600 to-purple-700 bg-clip-text text-transparent">
               Work
             </span>
           </h2>

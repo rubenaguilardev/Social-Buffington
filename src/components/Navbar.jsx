@@ -44,7 +44,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
         <div className="flex justify-between items-center h-16">
           <a href="#home" className="font-mono text-md md:text-lg font-bold">
             Social
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-600 to-purple-700 bg-clip-text text-transparent">
               ·Buffington
             </span>
           </a>
