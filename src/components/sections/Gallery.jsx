@@ -137,7 +137,7 @@ const Gallery = (props) => {
         id="gallery"
         className="flex flex-col justify-center items-center py-32"
       >
-        <h2 className="text-3xl md:text-4xl text-center font-bold mb-6 md:mb-8">
+        <h2 className="text-3xl md:text-4xl p-4 text-center font-bold mb-6 md:mb-8">
           My{" "}
           <span className="bg-gradient-to-r from-blue-600 to-purple-700 bg-clip-text text-transparent">
             Photography{" "}

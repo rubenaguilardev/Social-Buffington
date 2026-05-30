@@ -69,7 +69,7 @@ export const MY_WORK_TOP = [
 
 export const MY_WORK = [
   {
-    label: "Social Media",
+    label: "SOCIAL MEDIA",
     id: 0,
     icon: <i className="fab fa-instagram" />,
     color: `bg-gradient-to-br from-yellow-400 via-pink-500 to-purple-700`,
@@ -83,7 +83,7 @@ export const MY_WORK = [
   },
 
   {
-    label: "Design",
+    label: "DESIGN",
     id: 1,
     icon: <i className="fa fa-palette" />,
     color: `bg-gradient-to-br from-pink-500 via-rose-400 to-red-400`,
@@ -91,7 +91,7 @@ export const MY_WORK = [
   },
 
   {
-    label: "Blogs",
+    label: "BLOGS",
     id: 2,
     icon: <i className="fa fa-blog" />,
     color: `bg-gradient-to-br from-yellow-100 to-rose-600`,

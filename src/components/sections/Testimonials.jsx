@@ -44,7 +44,7 @@ const Testimonials = () => {
               key={index}
               src={testimonial.background}
               alt={testimonial.author}
-              className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ease-in-out md:rounded-2xl ${index === currentIndex ? "opacity-90 z-10" : "opacity-0 z-0"}`}
+              className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ease-in-out md:rounded-2xl ${index === currentIndex ? "opacity-80 z-10" : "opacity-0 z-0"}`}
             />
           ))}
           <div className="absolute inset-0 bg-black/60 md:rounded-xl z-20">
