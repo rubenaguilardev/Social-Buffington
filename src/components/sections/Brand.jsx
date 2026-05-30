@@ -21,7 +21,7 @@ const Brand = () => {
         <div className="space-y-6 glass rounded-2xl">
           <img src={logo} alt="salt and sol logo" className="rounded-t-2xl" />
           <div className="px-6 pb-6 space-y-2">
-            <h3 className="text-3xl tracking-wide uppercase text-purple-700">
+            <h3 className="text-2xl xl:text-3xl tracking-wide uppercase text-purple-700">
               primary logo
             </h3>
             <div className="text-[#94A3B8]">
@@ -53,7 +53,7 @@ const Brand = () => {
               </p>
             </div>
           </div>
-          <h3 className="text-3xl uppercase tracking-wide text-center text-purple-700">
+          <h3 className="text-2xl xl:text-3xl uppercase tracking-wide text-center text-purple-700">
             typography
           </h3>
           <div className="space-y-6 glass rounded-2xl">

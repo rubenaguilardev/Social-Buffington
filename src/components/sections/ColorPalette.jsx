@@ -9,6 +9,7 @@ const colors = [
   {
     name: "Color Palette",
     w: "50%",
+    // hex: "#FDF8E5",
     justify: "center",
   },
   {
@@ -56,11 +57,11 @@ const colors = [
 
 const ColorPalette = () => {
   return (
-    <div className="w-full h-full flex flex-wrap bg-[#FDF8E5] rounded-2xl overflow-hidden">
+    <div className="w-full h-full flex flex-wrap rounded-2xl border-t border-white/10 overflow-hidden">
       {colors.map(({ name, hex, color, w, justify, p }, index) => (
         <div
           key={color}
-          className={`flex flex-col justify-end ${index === 0 || index === 1 ? "text-[#36322F]" : "text-white"} px-6 lg:px-4 py-6 space-y-2 text-shadow-2xl`}
+          className={`flex flex-col justify-end ${index === 0 || index === 1 ? "text-[#36322F] border-r border-white/10" : "text-white"} px-6 lg:px-4 py-6 space-y-2 text-shadow-2xl`}
           style={{
             backgroundColor: hex,
             width: w,
@@ -69,7 +70,7 @@ const ColorPalette = () => {
           }}
         >
           <h3
-            className={`font-bold uppercase ${index === 1 ? "mx-auto text-2xl tracking-wide" : "text-xs xl:text-sm"}`}
+            className={`font-bold uppercase ${index === 1 ? "text-2xl xl:text-3xl tracking-wide text-purple-700 font-medium" : "text-xs xl:text-sm"}`}
           >
             {name}
           </h3>
