@@ -1,4 +1,3 @@
-import logo from "../../assets/brand/logo.png";
 import heading from "../../assets/brand/heading.png";
 import subheading from "../../assets/brand/subheading.png";
 import ColorPalette from "./ColorPalette";
@@ -18,14 +17,15 @@ const Brand = () => {
           guest experience enhancement.
         </p>
       </div>
+
       <div className="grid md:grid-cols-2 lg:grid-cols-[1.3fr_1.3fr_1fr] gap-8 xl:gap-10">
         <BrandLogo />
         <div className="space-y-6">
           <div className="space-y-6 glass rounded-2xl">
             <img src={heading} alt="" className="rounded-t-2xl" />
             <div className="space-y-2 px-6 pb-6">
-              <h3 className="text-xl uppercase tracking-wide">heading font</h3>
-              <p className="text-[#94A3B8]">
+              <h3 className="text-lg uppercase tracking-wide">heading font</h3>
+              <p className="text-[#94A3B8] text-sm">
                 Awake is a bold serif typeface with slighgtly retor letterforms
                 that command attention. Use Awake t convey personality,
                 confidence and a hint of timeless sophistication in all primary
@@ -39,10 +39,10 @@ const Brand = () => {
           <div className="space-y-6 glass rounded-2xl">
             <img src={subheading} alt="" className="rounded-t-2xl" />
             <div className="space-y-2 px-6 pb-6">
-              <h3 className="text-xl uppercase tracking-wide">
+              <h3 className="text-lg uppercase tracking-wide">
                 subheading font
               </h3>
-              <p className="text-[#94A3B8]">
+              <p className="text-[#94A3B8] text-sm">
                 Use Montserrat at medium weight with kerning set to 120 to
                 create a balanced, modern look with ample breathing room. This
                 setting ensures subheadings remain clear, approachable and

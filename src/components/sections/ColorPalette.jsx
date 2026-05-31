@@ -19,16 +19,16 @@ const colors = [
     w: "100%",
   },
   {
-    name: "Harvest Gold",
-    hex: "#D59A3C",
-    color: "D59A3C",
+    name: "Brown Sugar",
+    hex: "#935337",
+    color: "935337",
     w: "50%",
     justify: "center",
   },
   {
-    name: "Brown Sugar",
-    hex: "#935337",
-    color: "935337",
+    name: "Harvest Gold",
+    hex: "#D59A3C",
+    color: "D59A3C",
     w: "50%",
     justify: "center",
   },
@@ -70,7 +70,7 @@ const ColorPalette = () => {
           }}
         >
           <h3
-            className={`font-bold uppercase ${index === 1 ? "text-2xl xl:text-3xl tracking-wide text-purple-700 font-medium" : "text-xs xl:text-sm"}`}
+            className={`uppercase ${index === 1 ? "text-2xl xl:text-3xl tracking-wide text-purple-700" : "text-xs xl:text-sm font-bold"}`}
           >
             {name}
           </h3>
