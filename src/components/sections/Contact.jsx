@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-32 overflow-hidden">
       <RevealOnScroll>
-        <div className="container mx-auto px-4 md:px-6 lg:px-8 relative z-10">
+        <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
           <h2 className="text-3xl md:text-4xl text-center md:text-start font-bold mb-5 md:mb-8">
             Get in{" "}
             <span className="bg-gradient-to-r from-blue-600 to-purple-700 bg-clip-text text-transparent">

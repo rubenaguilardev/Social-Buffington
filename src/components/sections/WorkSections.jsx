@@ -71,7 +71,7 @@ const WorkSections = () => {
   return (
     <div className="pb-32">
       <RevealOnScroll>
-        <div className="container mx-auto px-4 md:px-6 lg:px-8 relative z-10">
+        <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
           {workSection}
         </div>
       </RevealOnScroll>

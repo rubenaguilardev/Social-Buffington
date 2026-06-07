@@ -34,7 +34,7 @@ const Skills = () => {
 
   return (
     <section
-      className="container md:px-6 lg:px-8 h-[560px] w-full m-auto relative group rounded-3xl my-32 shadow-2xl"
+      className="container md:px-6 lg:px-12 h-[560px] w-full m-auto relative group rounded-3xl my-32 shadow-2xl"
       {...swipeHandlers}
     >
       <div className="relative w-full h-full">

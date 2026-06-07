@@ -14,7 +14,6 @@ import Footer from "./components/sections/Footer";
 import FirefliesBackground from "./components/ui/fireflies";
 
 const App = () => {
-  // const [isLoaded, setIsLoaded] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (

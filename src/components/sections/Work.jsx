@@ -6,7 +6,7 @@ const Work = () => {
   return (
     <section id="work" className="flex items-center justify-center pt-32">
       <RevealOnScroll>
-        <div className="container mx-auto px-4 md:px-6 lg:px-8 relative z-10">
+        <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
           <h2 className="text-3xl md:text-4xl p-4 text-center font-bold mb-5 md:mb-8">
             My{" "}
             <span className="bg-gradient-to-r from-blue-600 to-purple-700 bg-clip-text text-transparent">
@@ -14,17 +14,6 @@ const Work = () => {
             </span>
           </h2>
           <Brand />
-          {/* <div className="space-y-2 mb-8">
-            <h2 className="text-2xl font-bold">
-              Brand Identity & Concept Creation
-            </h2>
-            <p className="text-[#94A3B8]">
-                I create food and beverage brands that are intentional,
-              experience-driven, and commercially viable. This includes concept
-              development, positioning, visual storytelling, menus, activations,
-              and guest experience enhancement.
-            </p>
-          </div> */}
           <div className="space-y-2 mb-8">
             <h2 className="text-2xl font-bold text-blue-600">
               Results That Speak for Themselves

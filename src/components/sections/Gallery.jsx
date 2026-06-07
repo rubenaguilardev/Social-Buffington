@@ -144,7 +144,7 @@ const Gallery = (props) => {
           </span>
         </h2>
 
-        <div className="embla relative container mx-auto lg:px-8 z-10 md:px-1 mb-3">
+        <div className="embla relative container mx-auto lg:px-12 z-10 md:px-1 mb-3">
           <div className="embla__viewport" ref={emblaRef}>
             <div className="embla__container">
               {PHOTOS.map((item, index) => (
@@ -195,7 +195,7 @@ const Gallery = (props) => {
           />
         )}
 
-        <div className="container mx-auto lg:px-8 relative z-10 md:px-1 mt-[.6rem] md:mt-[.7rem] lg:mt-[.8rem]">
+        <div className="container mx-auto lg:px-12 relative z-10 md:px-1 mt-[.6rem] md:mt-[.7rem] lg:mt-[.8rem]">
           <div className="embla__viewport">
             <div
               className="embla-thumb pointer-events-none"
