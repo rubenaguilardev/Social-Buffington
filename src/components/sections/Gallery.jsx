@@ -62,7 +62,7 @@ const Gallery = (props) => {
     return (
       <button
         onClick={onClick}
-        className={`hidden md:block absolute ${isLeft ? "left-14" : "right-14"} top-1/2 transform
+        className={`hidden md:block absolute ${isLeft ? "left-19" : "right-19"} top-1/2 transform
       bg-blue-600/70 py-2 px-4 text-xl font-medium transition hover:bg-blue-600 rounded-full
       hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] cursor-pointer shadow-md z-10`}
       >

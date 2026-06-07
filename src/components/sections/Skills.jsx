@@ -50,7 +50,7 @@ const Skills = () => {
           <div className="flex justify-center items-center md:justify-between h-full w-full">
             <button
               onClick={prevSlide}
-              className="hidden md:flex top-1/2 z-30 bg-blue-600/70 text-gray-100 py-2 px-4 rounded-full text-xl font-medium hover:bg-blue-600  cursor-pointer  hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] ml-7"
+              className="hidden md:flex top-1/2 z-30 bg-blue-600/70 text-gray-100 py-2 px-4 rounded-full text-xl font-medium hover:bg-blue-600  cursor-pointer  hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] ml-7 hover:-translate-y-0.5 transition"
             >
               &#60;
             </button>
@@ -66,7 +66,7 @@ const Skills = () => {
             </RevealOnScroll>
             <button
               onClick={nextSlide}
-              className="hidden md:flex top-1/2 z-30 bg-blue-600/70 text-gray-100 py-2 px-4 rounded-full text-xl font-medium hover:bg-blue-600  cursor-pointer  hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] mr-7"
+              className="hidden md:flex top-1/2 z-30 bg-blue-600/70 text-gray-100 py-2 px-4 rounded-full text-xl font-medium hover:bg-blue-600  cursor-pointer  hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] mr-7 hover:-translate-y-0.5 transition"
             >
               &#62;
             </button>
