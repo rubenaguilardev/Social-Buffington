@@ -4,10 +4,11 @@ import guidelinesLogo from "../../assets/brand/guidelinesLogo.png";
 import TextStyle from "./TextStyle";
 import headingFont from "../../assets/brand/headingFont.png";
 import subheading from "../../assets/brand/subheading.png";
+import BrandDesigns from "./BrandDesigns";
 
 const Brand = () => {
   return (
-    <div className="mb-8 space-y-8">
+    <div className="mb-8 space-y-6 xl:space-y-8">
       <div className="space-y-2 mb-8">
         <h2 className="text-2xl font-bold text-blue-600">
           Brand Identity & Concept Creation
@@ -19,15 +20,15 @@ const Brand = () => {
           guest experience enhancement.
         </p>
       </div>
-      <div className="grid lg:grid-cols-[1.1fr_1fr] gap-8">
-        <div className="space-y-8">
+      <div className="grid lg:grid-cols-[1.1fr_1fr] gap-6 xl:gap-8">
+        <div className="space-y-6 xl:space-y-8">
           <img src={guidelinesLogo} alt="" className="w-full rounded-2xl" />
           <h3 className="text-2xl xl:text-3xl tracking-wide uppercase text-purple-700 text-center">
             Salt & Sol Logo
           </h3>
           <BrandLogo />
         </div>
-        <div className="space-y-8">
+        <div className="space-y-6 xl:space-y-8">
           <h3 className="text-2xl xl:text-3xl tracking-wide uppercase text-purple-700 text-center">
             color palette
           </h3>
@@ -59,13 +60,10 @@ const Brand = () => {
           />
         </div>
       </div>
-
-      <div className="grid md:grid-cols-2 lg:grid-cols-[1.3fr_1.3fr_1fr] gap-8 xl:gap-10">
-        {/* 
-        <div className="md:col-span-2 lg:col-span-1">
-          <ColorPalette />
-        </div> */}
-      </div>
+      <h3 className="text-2xl xl:text-3xl tracking-wide uppercase text-purple-700 text-center">
+        brand design
+      </h3>
+      <BrandDesigns />
     </div>
   );
 };

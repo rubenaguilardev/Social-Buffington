@@ -14,7 +14,7 @@ const Work = () => {
             </span>
           </h2>
           <Brand />
-          <div className="space-y-2 mb-8">
+          <div className="space-y-2 mb-8 pt-16">
             <h2 className="text-2xl font-bold text-blue-600">
               Results That Speak for Themselves
             </h2>
