@@ -20,7 +20,7 @@ const Brand = () => {
           guest experience enhancement.
         </p>
       </div>
-      <div className="grid lg:grid-cols-[1.1fr_1fr] gap-6 xl:gap-8">
+      <div className="grid lg:grid-cols-[1fr_1fr] gap-6 xl:gap-8">
         <div className="space-y-6 xl:space-y-8">
           <img src={guidelinesLogo} alt="" className="w-full rounded-2xl" />
           <h3 className="text-2xl xl:text-3xl tracking-wide uppercase text-purple-700 text-center">

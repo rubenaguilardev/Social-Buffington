@@ -3,7 +3,7 @@ const TextStyle = ({ font, text, color, heading, paragraph, pic }) => {
     <div className="space-y-6">
       <div className="space-y-6 glass rounded-2xl">
         <div
-          className="flex justify-center py-7.25 xl:py-12 2xl:py-20.25 rounded-t-2xl"
+          className="flex justify-center py-6.25 xl:py-11.5 2xl:py-17 rounded-t-2xl"
           style={{ backgroundColor: color }}
         >
           <img src={pic} alt="" className="w-50 xl:w-60" />
