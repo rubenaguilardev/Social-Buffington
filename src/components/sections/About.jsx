@@ -58,19 +58,20 @@ const About = () => {
               </a>
             </RevealOnScroll>
           </div>
-
-          <div className="relative">
-            <div className="relative max-w-md mx-auto">
-              <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#242b32]/30 via-transparent to-[#242b32]/10 blur-2xl animate-pulse" />
-              <div className="relative glass rounded-3xl p-2 glow-border">
-                <img
-                  src={jazz}
-                  alt="Jazmin Buffington"
-                  className="w-full aspect-4/5 object-cover rounded-2xl"
-                />
+          <RevealOnScroll>
+            <div className="relative">
+              <div className="relative max-w-md mx-auto">
+                <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#242b32]/30 via-transparent to-[#242b32]/10 blur-2xl animate-pulse" />
+                <div className="relative glass rounded-3xl p-2 glow-border">
+                  <img
+                    src={jazz}
+                    alt="Jazmin Buffington"
+                    className="w-full aspect-4/5 object-cover rounded-2xl"
+                  />
+                </div>
               </div>
             </div>
-          </div>
+          </RevealOnScroll>
         </div>
       </div>
     </section>
