@@ -19,8 +19,7 @@ const BrandDesigns = () => {
           <img
             key={index}
             src={img}
-            alt=""
-            loading={index < 2 ? "eager" : "lazy"}
+            alt="salt and sol design image"
             className="h-130 xl:h-140 w-full object-cover object-top rounded-2xl cursor-zoom-in"
             onClick={() => {
               setPhotoIndex(index);

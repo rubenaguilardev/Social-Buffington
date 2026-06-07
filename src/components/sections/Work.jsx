@@ -2,6 +2,7 @@ import { MY_WORK_TOP } from "../../constants/index";
 import RevealOnScroll from "../RevealOnScroll";
 import Brand from "./Brand";
 import BrandDesigns from "./BrandDesigns";
+import design1 from "../../assets/brand/design1.avif";
 
 const Work = () => {
   return (
@@ -20,6 +21,7 @@ const Work = () => {
           <h3 className="text-2xl xl:text-3xl mb-6 xl:mb-8 tracking-wide uppercase text-purple-700 text-center">
             brand design
           </h3>
+
           <BrandDesigns />
         </RevealOnScroll>
         <RevealOnScroll>
