@@ -5,10 +5,10 @@ import { FaLinkedin, FaEnvelope } from "react-icons/fa6";
 const About = () => {
   return (
     <section id="about" className="py-32 relative overflow-hidden">
-      <RevealOnScroll>
-        <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
-          <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-16 items-center">
-            <div className="space-y-8">
+      <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
+        <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-16 items-center">
+          <div className="space-y-8">
+            <RevealOnScroll>
               <h2 className="text-3xl md:text-4xl text-center md:text-left font-bold mb-6 md:mb-8">
                 <span className="bg-gradient-to-r from-blue-600 to-purple-700 bg-clip-text text-transparent">
                   About
@@ -56,23 +56,23 @@ const About = () => {
               >
                 Linkedin
               </a>
-            </div>
+            </RevealOnScroll>
+          </div>
 
-            <div className="relative">
-              <div className="relative max-w-md mx-auto">
-                <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#242b32]/30 via-transparent to-[#242b32]/10 blur-2xl animate-pulse" />
-                <div className="relative glass rounded-3xl p-2 glow-border">
-                  <img
-                    src={jazz}
-                    alt="Jazmin Buffington"
-                    className="w-full aspect-4/5 object-cover rounded-2xl"
-                  />
-                </div>
+          <div className="relative">
+            <div className="relative max-w-md mx-auto">
+              <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#242b32]/30 via-transparent to-[#242b32]/10 blur-2xl animate-pulse" />
+              <div className="relative glass rounded-3xl p-2 glow-border">
+                <img
+                  src={jazz}
+                  alt="Jazmin Buffington"
+                  className="w-full aspect-4/5 object-cover rounded-2xl"
+                />
               </div>
             </div>
           </div>
         </div>
-      </RevealOnScroll>
+      </div>
     </section>
   );
 };
