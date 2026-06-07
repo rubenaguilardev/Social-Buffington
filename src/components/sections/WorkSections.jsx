@@ -3,9 +3,14 @@ import { MY_WORK } from "../../constants";
 import { InstagramEmbed } from "react-social-media-embed";
 import { useState } from "react";
 import RevealOnScroll from "../RevealOnScroll";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 
 const WorkSections = () => {
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [photoIndex, setPhotoIndex] = useState(0);
+
+  const designImages = MY_WORK.find((s) => s.id === 1)?.content ?? [];
 
   const workSection = MY_WORK.map((section, index) => (
     <Accordion
@@ -30,13 +35,16 @@ const WorkSections = () => {
         section.content.map((item, index) => (
           <div
             key={index}
-            className=" snap-center cursor-pointer w-[300px] h-[350px] object-fill overflow-hidden rounded-lg flex-shrink-0 mt-4 mb-2"
-            onClick={() => setSelectedImage(item)}
+            className="snap-center cursor-zoom-in w-[300px] h-[350px] overflow-hidden rounded-lg flex-shrink-0 mt-4 mb-2"
+            onClick={() => {
+              setPhotoIndex(index);
+              setLightboxOpen(true);
+            }}
           >
             <img
               src={item}
               alt={`design picture ${index}`}
-              className="w-[100%] object-top transition-transform duration-300 hover:scale-105"
+              className="w-full object-top transition-transform duration-300 hover:scale-105"
             />
           </div>
         ))
@@ -51,7 +59,7 @@ const WorkSections = () => {
             rel="noopener noreferrer"
           >
             <div className="flex flex-col mb-2 mt-4 snap-center transition-transform duration-300 hover:scale-102">
-              <div className="w-[220px] md:w-[260px] object-fit">
+              <div className="w-[220px] md:w-[260px]">
                 <img
                   src={post.image}
                   className="rounded-t-lg"
@@ -75,24 +83,13 @@ const WorkSections = () => {
           {workSection}
         </div>
       </RevealOnScroll>
-      {selectedImage && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4"
-          onClick={() => setSelectedImage(null)}
-        >
-          <img
-            src={selectedImage}
-            alt="full view"
-            className="max-w-full max-h-full object-contain rounded-lg"
-            onClick={(e) => e.stopPropagation()}
-          />
-          <button
-            onClick={() => setSelectedImage(null)}
-            className="absolute top-6 right-6 text-blue-500 text-5xl cursor-pointer"
-          >
-            &times;
-          </button>
-        </div>
+      {lightboxOpen && (
+        <Lightbox
+          open={lightboxOpen}
+          close={() => setLightboxOpen(false)}
+          index={photoIndex}
+          slides={designImages.map((src) => ({ src }))}
+        />
       )}
     </div>
   );
