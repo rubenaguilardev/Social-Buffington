@@ -25,6 +25,17 @@ const Work = () => {
               and guest experience enhancement.
             </p>
           </div> */}
+          <div className="space-y-2 mb-8">
+            <h2 className="text-2xl font-bold text-blue-600">
+              Results That Speak for Themselves
+            </h2>
+            <p>
+              Every brand has a story worth telling and an audience worth
+              reaching. Here's a look at how strategic, intentional content
+              creation translates into real, measurable growth for the
+              hospitality brands I've had the pleasure of working with.
+            </p>
+          </div>
           <div className="grid lg:grid-cols-2 xl:grid-cols-1 2xl:grid-cols-2 gap-4 md:gap-8 border-b border-white/10 pb-4 md:pb-8">
             <div className="grid xl:grid-cols-2 p-6 gap-6 glass rounded-3xl items-center text-[#94A3B8]">
               <div className="">
@@ -35,6 +46,9 @@ const Work = () => {
                 />
               </div>
               <div className="">
+                <h3 className="text-white text-xl mb-4">
+                  Wyndham Grand Clearwater Beach
+                </h3>
                 <p className="mb-5">{MY_WORK_TOP[0].description[0]}</p>
                 <p className="">{MY_WORK_TOP[0].description[1]}</p>
               </div>
@@ -48,6 +62,9 @@ const Work = () => {
                 />
               </div>
               <div>
+                <h3 className="text-white text-xl mb-4">
+                  Margaritaville Palm Springs
+                </h3>
                 <p className=" text-[#94A3B8]">{MY_WORK_TOP[1].description}</p>
               </div>
             </div>
