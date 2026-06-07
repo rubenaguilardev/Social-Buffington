@@ -1,4 +1,4 @@
-import logo from "../../assets/brand/logo.png";
+import logo from "../../assets/brand/logo.avif";
 
 const BrandLogo = () => {
   return (

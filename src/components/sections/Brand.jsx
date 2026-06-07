@@ -1,9 +1,9 @@
 import ColorPalette from "./ColorPalette";
 import BrandLogo from "./BrandLogo";
-import guidelinesLogo from "../../assets/brand/guidelinesLogo.png";
+import guidelinesLogo from "../../assets/brand/guidelinesLogo.avif";
 import TextStyle from "./TextStyle";
-import headingFont from "../../assets/brand/headingFont.png";
-import subheading from "../../assets/brand/subheading.png";
+import headingFont from "../../assets/brand/headingFont.avif";
+import subheading from "../../assets/brand/subheading.avif";
 import BrandDesigns from "./BrandDesigns";
 
 const Brand = () => {
