@@ -21,7 +21,7 @@ const BrandDesigns = () => {
             src={img}
             alt=""
             loading="lazy"
-            className="h-130 xl:h-140 w-full object-cover object-top rounded-2xl cursor-zoom-in"
+            className={`h-130 xl:h-140 w-full object-cover object-top rounded-2xl cursor-zoom-in ${index === 2 ? "order-4 md:order-none" : ""}`}
             onClick={() => {
               setPhotoIndex(index);
               setOpen(true);

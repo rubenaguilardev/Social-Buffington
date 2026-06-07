@@ -13,6 +13,8 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
   color: #f5f5f5;
+  background-color: #020617;
+  overscroll-behavior: none;
 }
 
 @layer components {
