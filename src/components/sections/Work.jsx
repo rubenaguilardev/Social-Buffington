@@ -13,8 +13,8 @@ const Work = () => {
               Work
             </span>
           </h2>
+          <Brand />
         </RevealOnScroll>
-        <Brand />
         <RevealOnScroll>
           <div className="space-y-2 mb-8 pt-16">
             <h2 className="text-2xl font-bold text-blue-600">
