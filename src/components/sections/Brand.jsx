@@ -61,13 +61,6 @@ const Brand = () => {
           />
         </div>
       </div>
-
-      <RevealOnScroll>
-        <h3 className="text-2xl xl:text-3xl tracking-wide uppercase text-purple-700 text-center">
-          brand design
-        </h3>
-        <BrandDesigns />
-      </RevealOnScroll>
     </div>
   );
 };

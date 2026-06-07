@@ -1,6 +1,7 @@
 import { MY_WORK_TOP } from "../../constants/index";
 import RevealOnScroll from "../RevealOnScroll";
 import Brand from "./Brand";
+import BrandDesigns from "./BrandDesigns";
 
 const Work = () => {
   return (
@@ -14,6 +15,12 @@ const Work = () => {
             </span>
           </h2>
           <Brand />
+        </RevealOnScroll>
+        <RevealOnScroll>
+          <h3 className="text-2xl xl:text-3xl tracking-wide uppercase text-purple-700 text-center">
+            brand design
+          </h3>
+          <BrandDesigns />
         </RevealOnScroll>
         <RevealOnScroll>
           <div className="space-y-2 mb-8 pt-16">
