@@ -20,7 +20,7 @@ const BrandDesigns = () => {
             key={index}
             src={img}
             alt=""
-            loading={index === 0 ? "eager" : "lazy"}
+            loading={index < 2 ? "eager" : "lazy"}
             className="h-130 xl:h-140 w-full object-cover object-top rounded-2xl cursor-zoom-in"
             onClick={() => {
               setPhotoIndex(index);

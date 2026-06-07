@@ -34,7 +34,7 @@ const Home = () => {
             Contact Me
           </a>
         </div>
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in animation-delay-600">
+        <div className="hidden md:block absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in animation-delay-600">
           <a
             href="#about"
             className="flex flex-col items-center gap-2 text-[#94A3B8]"
