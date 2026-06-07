@@ -17,7 +17,7 @@ const Work = () => {
           <Brand />
         </RevealOnScroll>
         <RevealOnScroll>
-          <h3 className="text-2xl xl:text-3xl tracking-wide uppercase text-purple-700 text-center">
+          <h3 className="text-2xl xl:text-3xl mb-6 xl:mb-8 tracking-wide uppercase text-purple-700 text-center">
             brand design
           </h3>
           <BrandDesigns />
