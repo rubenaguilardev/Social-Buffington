@@ -15,7 +15,7 @@ const About = () => {
                 </span>{" "}
                 Me
               </h2>
-              <div className="space-y-4 text-[#94A3B8]">
+              <div className="space-y-4 text-[#94A3B8] mb-8">
                 <p>
                   Hi, nice to meet you. I’m a marketing strategist with over a
                   decade of experience bringing brands to life through social
