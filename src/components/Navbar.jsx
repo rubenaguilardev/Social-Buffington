@@ -58,6 +58,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map(({ label, href }) => (
               <a
+                key={label}
                 href={href}
                 className="text-[#94A3B8] hover:text-white transition-colors underline-animation"
               >

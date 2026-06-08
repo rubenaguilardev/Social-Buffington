@@ -2,8 +2,6 @@ import ColorPalette from "./ColorPalette";
 import BrandLogo from "./BrandLogo";
 import guidelinesLogo from "../../assets/brand/guidelinesLogo.avif";
 import TextStyle from "./TextStyle";
-import awake from "../../assets/brand/awake.png";
-import subheading from "../../assets/brand/subheading.avif";
 
 const Brand = () => {
   return (
@@ -40,7 +38,6 @@ const Brand = () => {
             text="ABCDEFG"
             color="#7AC0B6"
             heading="heading font"
-            name="AWAKE"
             span="ABCDEFG"
             paragraph="Awake is a bold serif typeface with slighgtly retor letterforms
                 that command attention. Use Awake t convey personality,
@@ -51,7 +48,6 @@ const Brand = () => {
             font="MONTSERRAT"
             text="AaBbCc"
             color="#D59A3C"
-            pic={subheading}
             heading="subheading font"
             paragraph="Use Montserrat at medium weight with kerning set to 120 to
                 create a balanced, modern look with ample breathing room. This
