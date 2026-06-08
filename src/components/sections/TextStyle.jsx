@@ -1,12 +1,17 @@
-const TextStyle = ({ font, text, color, heading, paragraph, pic }) => {
+const TextStyle = ({ color, heading, paragraph, font, text }) => {
   return (
     <div className="space-y-6">
       <div className="space-y-6 glass rounded-2xl">
         <div
-          className="flex justify-center py-6.25 xl:py-11.5 2xl:py-17 rounded-t-2xl"
+          className="flex justify-center py-8 lg:py-6 xl:py-11.25 2xl:py-16.75 rounded-t-2xl"
           style={{ backgroundColor: color }}
         >
-          <img src={pic} alt="" className="w-50 xl:w-60" />
+          <div
+            className={`text-4xl xl:text-5xl text-center ${font === "AWAKE" ? "awake-font" : "montserrat-font "}`}
+          >
+            <h3>{font}</h3>
+            <span className="text-[#935337]">{text}</span>
+          </div>
         </div>
 
         <div className="space-y-2 px-6 pb-6">

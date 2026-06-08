@@ -2,10 +2,8 @@ import ColorPalette from "./ColorPalette";
 import BrandLogo from "./BrandLogo";
 import guidelinesLogo from "../../assets/brand/guidelinesLogo.avif";
 import TextStyle from "./TextStyle";
-import headingFont from "../../assets/brand/headingFont.avif";
+import awake from "../../assets/brand/awake.png";
 import subheading from "../../assets/brand/subheading.avif";
-import BrandDesigns from "./BrandDesigns";
-import RevealOnScroll from "../RevealOnScroll";
 
 const Brand = () => {
   return (
@@ -38,19 +36,20 @@ const Brand = () => {
             typography
           </h3>
           <TextStyle
-            font="MONTSERRAT"
-            text="AaBbCc"
+            font="AWAKE"
+            text="ABCDEFG"
             color="#7AC0B6"
             heading="heading font"
-            pic={headingFont}
+            name="AWAKE"
+            span="ABCDEFG"
             paragraph="Awake is a bold serif typeface with slighgtly retor letterforms
                 that command attention. Use Awake t convey personality,
                 confidence and a hint of timeless sophistication in all primary
                 headings."
           />
           <TextStyle
-            font="AWAKE"
-            text="ABCDEFG"
+            font="MONTSERRAT"
+            text="AaBbCc"
             color="#D59A3C"
             pic={subheading}
             heading="subheading font"
