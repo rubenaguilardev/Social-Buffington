@@ -20,7 +20,8 @@ const BrandDesigns = () => {
             key={index}
             src={img}
             alt="salt and sol design image"
-            className="h-130 xl:h-140 w-full object-cover object-top rounded-2xl cursor-zoom-in"
+            loading="lazy"
+            className={`h-130 xl:h-140 w-full object-cover object-top rounded-2xl cursor-zoom-in ${index === 2 ? "order-4 md:order-none" : ""}`}
             onClick={() => {
               setPhotoIndex(index);
               setOpen(true);
