@@ -4,9 +4,8 @@ import "yet-another-react-lightbox/styles.css";
 import design1 from "../../assets/brand/design1.avif";
 import design2 from "../../assets/brand/design2.avif";
 import design3 from "../../assets/brand/design3.avif";
-import design4 from "../../assets/brand/design4.avif";
 
-const images = [design1, design2, design4, design3];
+const images = [design1, design2, design3];
 
 const BrandDesigns = () => {
   const [open, setOpen] = useState(false);
@@ -14,7 +13,7 @@ const BrandDesigns = () => {
 
   return (
     <>
-      <div className="grid lg:grid-cols-2 gap-6 xl:gap-8">
+      <div className="grid lg:grid-cols-3 gap-6 xl:gap-8">
         {images.map((img, index) => (
           <img
             key={index}
